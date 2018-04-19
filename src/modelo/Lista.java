@@ -11,7 +11,7 @@ public class Lista {
 	}
 
 	public void desalistar() {
-		// eliminar el elemento en la posicion que le digamos
+		// eliminar el elemento en la posicion que le digamos 
 		lista.remove(this.lista.size());
 	}
 }
