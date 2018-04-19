@@ -12,9 +12,6 @@ public class Lista {
 
 	public void desalistar() {
 		// eliminar el elemento en la posicion que le digamos
-		lista.remove(0);
-
-		// eliminar toda la lista
-		lista.clear();
+		lista.remove(this.lista.size());
 	}
 }
